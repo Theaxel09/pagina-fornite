@@ -1,0 +1,119 @@
+section {
+    height: 100vh;
+}
+
+.seccion1 {
+    padding-top: 9%;
+}
+
+header {
+    height: 100px;
+}
+
+body {
+    background: url("../img/fondo-f.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 300px;
+}
+
+.temporadas {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.formulario {
+    background-color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.comun {
+    color: #40464d;
+}
+
+.poco-comun {
+    color: #016604;
+}
+
+.raro {
+    color: #008DD4;
+}
+
+.epico {
+    color: #8A2BE2;
+}
+
+.legendario {
+    color: #de6e0e;
+}
